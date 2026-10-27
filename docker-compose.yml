@@ -1,0 +1,14 @@
+services:
+  node-red:
+    build: .
+    container_name: node-red
+    ports:
+      - "1880:1880"
+    environment:
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-}
+    volumes:
+      - node_red_data:/data
+    restart: unless-stopped
+
+volumes:
+  node_red_data:

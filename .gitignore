@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+.DS_Store
+data/.config.*.json
+data/.config.*.json.backup
+data/.sessions.json
+data/.flows.json.backup
+data/*_cred.json
