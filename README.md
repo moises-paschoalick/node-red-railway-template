@@ -1,5 +1,7 @@
 # Node-RED for Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-7V17e?referralCode=1JjR_W&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Docker image of [Node-RED](https://nodered.org) with a password-protected editor, ready to deploy on [Railway](https://railway.com) or to run locally with Docker.
 
 ## Structure
@@ -42,6 +44,10 @@ On every container start, `scripts/init.sh` (running as root):
 > Without `ADMIN_PASSWORD`, the password **changes on every redeploy**. Set it to keep a fixed password.
 
 ## Deploy on Railway
+
+### One click
+
+Click the **Deploy on Railway** button above, set `ADMIN_PASSWORD` and deploy.
 
 ### From the dashboard
 
